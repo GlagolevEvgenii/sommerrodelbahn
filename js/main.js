@@ -28,26 +28,6 @@ const embedEngine = {
         embedEngine.binds();
     },
     binds() {
-        const swiper = new Swiper('.swiper', {
-            slidesPerView: 1,
-            pagination: {
-                el: '.swiper-pagination',
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            breakpoints: {
-                320: {
-                    slidesPerView: 1,
-                },
-                767: {
-                    slidesPerView: 2.2,
-                    spaceBetween: 20
-                }
-            }
-        });
-
         const menuBtnRef = document.querySelector("[data-menu-button]");
         const mobileMenuRef = document.querySelector("[data-menu]");
         const expanded =
