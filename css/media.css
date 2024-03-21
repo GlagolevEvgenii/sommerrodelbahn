@@ -13,6 +13,16 @@
     .place-block-image picture, .place-block-image img {
         border-radius: 0 6px 6px 0;
     }
+    .horizontal-card{
+        flex-direction: row;
+    }
+    .horizontal-card:last-of-type{
+        flex-direction: row-reverse;
+    }
+    .custom-list{
+        column-count: 2;
+        column-gap: 47px;
+    }
 }
 
 @media (min-width: 776px) and (min-height: 600px) {
@@ -39,7 +49,7 @@
         margin: 0 -60px 80px;
     }
 
-    .detox-wrap {
+    .rate-wrap {
         grid-template-columns: repeat(3, 1fr);
     }
 
@@ -49,22 +59,15 @@
 
     .section-tip {
         display: flex;
-        align-items: flex-start;
-        padding-left: 0
+        align-items: center;
     }
 
     .section-tip__icon {
-        margin-bottom: 0;
         display: flex;
         justify-content: center;
         flex-shrink: 0;
-        width: 92px;
+        width: 50px;
         position: relative;
-        top: -5px
-    }
-
-    .section-tip__icon_info {
-        top: 0
     }
 
     .hamburger {
@@ -110,11 +113,12 @@
     }
 
     .section-figure__caption {
-        max-width: 552px;
+        max-width: 531px;
         position: absolute;
-        right: 16px;
-        padding: 50px;
-        bottom: 50px;
+        left: 16px;
+        padding: 30px;
+        top: 50%;
+        transform: translateY(-50%);
     }
 
     .nav {
@@ -152,7 +156,7 @@
 
 @media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
     .main-section {
-        background-image: url(../images/header-wide@2x.webp)
+        background-image: url(../images/tui-sommerrodelbahn-mein-teaser_@2x.webp)
     }
 }
 

@@ -154,11 +154,6 @@ ul {
     padding-left: 17px
 }
 
-.custom-list {
-    list-style-type: disc;
-    padding-top: 30px;
-}
-
 .section {
     position: relative;
     padding: 60px 0;
@@ -171,6 +166,13 @@ ul {
 .section-gradient {
     background: linear-gradient(180deg, #A3DDF8 0%, rgba(163, 221, 248, 0.40) 49%, #A3DDF8 100%);
 }
+.section-blue{
+    background-color: #A3DDF8;
+}
+.section-grey{
+    padding: 60px 0;
+    background-color: #F3F0EC;
+}
 
 
 .section-title {
@@ -178,8 +180,8 @@ ul {
     font-size: 25px;
     color: #092a5e;
     font-weight: 700;
-    line-height: 38px;
-    margin-bottom: 30px;
+    line-height: 126.66%;
+    margin-bottom: 20px;
 }
 
 .regular-title {
@@ -237,7 +239,7 @@ strong {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-basis: 739px
+    flex-basis: 776px
 }
 
 .nav-list--item {
@@ -246,7 +248,7 @@ strong {
     text-align: left;
     transform: scale(1);
     transition: all .3s ease;
-    margin-right: 65px;
+    margin-right: 60px;
     display: inline-block;
 
     &:last-child {
@@ -415,7 +417,7 @@ strong {
 
 .embed {
     text-align: center;
-    margin-top: 30px
+    margin-top: 40px;
 }
 
 .embed-button {
@@ -498,25 +500,6 @@ strong {
     color: #70cbf4
 }
 
-.swiper-button-next:after, .swiper-button-prev:after {
-    display: none;
-}
-
-.swiper-button-next, .swiper-button-prev {
-    width: 53px !important;
-    height: 53px !important;
-    transform: translateY(-50%) !important;
-    top: 383px !important;
-}
-
-.swiper-button-next img, .swiper-button-prev img {
-    transform: scale(1.1);
-}
-
-.swiper-button-next img {
-    transform: scale(1.1) rotate(180deg);
-}
-
 .embed-image-wrapper {
     overflow-x: scroll;
 }
@@ -524,24 +507,9 @@ strong {
 .embed-image-wrapper__image {
     max-width: 200% !important;
 }
-
-.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
-    top: auto !important;
-    bottom: 0 !important;
+.mb-0 {
+    margin-bottom: 0!important;
 }
-
-.swiper-pagination-bullet {
-    height: 16px !important;
-    width: 16px !important;
-    background-color: #FFFFFF4D !important;
-}
-
-.swiper-pagination-bullet-active {
-    background-color: #FFFFFF !important;
-}
-
-.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
-    opacity: 1 !important;
-    cursor: pointer !important;
-    pointer-events: auto !important;
+.mb-40 {
+    margin-bottom: 40px!important;
 }

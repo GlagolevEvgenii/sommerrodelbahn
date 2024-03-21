@@ -3,7 +3,7 @@
     position: relative;
     height: 518px;
     background-color: #ece78b;
-    background-image: url(../images/header-wide.webp);
+    background-image: url(../images/tui-sommerrodelbahn-mein-teaser.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 70% 100%;
@@ -45,133 +45,95 @@
 }
 
 .section-figure {
-    margin: 40px 0;
+    margin: 40px 0 0;
 }
 
 .section-figure img, .section-figure picture {
     width: 100%;
+    margin-left: auto;
 }
 
 
 .section-figure__caption {
     padding: 32px;
     background: #fff;
-    margin-top: 40px
 }
 
 .rounded {
     border-radius: 10px
 }
 
-.section-tip {
-    background: #E2F3FE;
-    padding: 40px 27px;
-    letter-spacing: -.18px;
-    margin-bottom: 30px;
-    line-height: 1.33
+.section-tip__icon{
+    margin-right: 20px;
+}
+.section-tip{
+    margin-bottom: 40px;
+}
+.custom-list{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+    padding-left: 19px;
+}
+.sub-list{
+    list-style-type: disc;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 2px;
+}
+.custom-list>li>p{
+    font-weight: 400;
+    font-size: 16px;
 }
 
-.section-tip_info {
-    letter-spacing: 0
-}
-
-.section-tip__icon {
-    margin-bottom: 21px
-}
-
-.detox-wrap {
+.rate-wrap {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
 }
 
-.detox-item__img {
-    margin-bottom: 19px;
+.rate-item__img {
+    margin-bottom: 25px;
 }
 
-.detox-item {
-    background-color: #092A5E;
-    padding: 34px 16px;
-    color: #ffffff;
+.rate-item {
+    background-color: #E2F3FE;
+    padding: 0 30px 30px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    border-radius: 6px;
 }
 
-.detox-list {
-    text-align: left;
-    list-style-type: disc;
-}
-
-.detox-item__title {
+.rate-item__title {
     font-weight: 700;
     font-size: 22px;
-    line-height: 1.2;
-    margin-bottom: 47px;
-
-    &.margin-mode {
-        margin-bottom: 24px;
-    }
+    line-height: 136.4%;
+    margin-bottom: 25px;
+    margin-top: 0;
 }
 
-
-.detox-list-item {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0;
-    margin-bottom: 30px;
-}
-
-.image-sea-wrapper {
-    margin: 0 0 40px -28px;
-}
-
-.place-block {
+.horizontal-card{
     display: flex;
-    border-radius: 6px;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px;
     margin-bottom: 40px;
-    flex-direction: column;
+    border-radius: 10px;
+    background: #E2F3FE;
 }
-
-.place-block-info {
-    width: 100%;
-    background-color: #ffffff;
-    padding: 25px 30px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 6px 6px 0 0;
+.horizontal-card:last-of-type{
+    margin-bottom: 0;
 }
-
-.place-block-image picture, .place-block-image img {
-    border-radius: 0 0 6px 6px;
-    object-fit: cover;
-    height: 100%;
+.horizontal-card--title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 15px;
+    margin-top: 0;
 }
-
-.info-item {
-    display: flex;
-    align-items: center;
-    font-size: 18px;
-    line-height: 1;
-    letter-spacing: 0;
-    color: #092A5E;
-    margin-bottom: 16px;
-
-    &:last-of-type {
-        margin-bottom: 0;
-    }
-}
-
-.info-item span {
-    margin-left: 19px;
-    font-weight: 400;
-}
-
-.static-image-wrap {
-    margin: 0 -60px 40px;
+.horizontal-card--img{
+    flex-shrink: 0;
 }
 
 
