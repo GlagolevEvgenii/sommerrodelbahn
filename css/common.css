@@ -502,6 +502,7 @@ strong {
 
 .embed-image-wrapper {
     overflow-x: scroll;
+    scroll-margin-top: 140px;
 }
 
 .embed-image-wrapper__image {
