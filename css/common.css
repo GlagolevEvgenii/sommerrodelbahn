@@ -204,7 +204,8 @@ strong {
     padding-right: 16px;
     max-width: 1116px;
     margin: 0 auto;
-    width: 100%
+    width: 100%;
+    scroll-margin-top: 140px;
 }
 
 .container_small {
@@ -502,7 +503,6 @@ strong {
 
 .embed-image-wrapper {
     overflow-x: scroll;
-    scroll-margin-top: 140px;
 }
 
 .embed-image-wrapper__image {
