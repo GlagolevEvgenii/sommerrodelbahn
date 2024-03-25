@@ -148,6 +148,11 @@ img {
     text-decoration: underline;
     font-weight: 700
 }
+.text--underline:hover, .text--underline:focus, .text--underline:active {
+    color: #061e46;
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+}
 
 ul {
     margin: 0;
